@@ -66,7 +66,7 @@ describe('Input fields', () => {
         cy.get('button[class="submit_button"]').should('be.disabled');
     })
 
-    it('BMW should not be listed in cars list', () => {
+    it('BMW should not be listed in cars list - my test commit', () => {
         
         // Check list size is 4
         cy.get('#cars').children().should('have.length', 4)
